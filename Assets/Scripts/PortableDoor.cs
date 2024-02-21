@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PortableDoor : MonoBehaviour
@@ -16,10 +17,19 @@ public class PortableDoor : MonoBehaviour
             {
                 Debug.Log("Player entered the door");
                 m_innerworld.layer = 0;
+                foreach (Transform child in m_innerworld.transform)
+                {
+                    child.gameObject.layer = 0;
+                }
+
             }
             else
             {
                 m_innerworld.layer = m_layer;
+                foreach (Transform child in m_innerworld.transform)
+                {
+                    child.gameObject.layer = m_layer;
+                }
             }
         }
     }
