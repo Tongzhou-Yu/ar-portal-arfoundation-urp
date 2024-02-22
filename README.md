@@ -11,7 +11,8 @@ Stencil function can be achieved through `Renderer Feature` in `Universal Render
 `Assets/RP/ArPortal_Renderer.asset`  
 >Filtering  
 >>`Opaque Layer Mask` Portal n and InWorld n should be unchecked.  
->>`Transparent Layer Mask` Portal n and InWorld n should be unchecked.  
+>>`Transparent Layer Mask` Portal n and InWorld n should be unchecked.
+  
 >Portal n  
 >>`Event` BeforeRenderingOpaques  
 >>`Filter`  
