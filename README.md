@@ -9,27 +9,27 @@ Apple ARKit XR Plugin 5.1.2
 Stencil function can be achieved through `Renderer Feature` in `Universal Renderer Data` to create portal effect. Through each portal the specific gameobjects can be seen and the maximum quantity of portals is 15 due to  `Universal Renderer Data`.
 ### Key Assets
 `Assets/RP/ArPortal_Renderer.asset`  
->Filtering
->>`Opaque Layer Mask` Portal n and InWorld n should be unchecked.
->>`Transparent Layer Mask` Portal n and InWorld n should be unchecked.
->Portal n
->>`Event` BeforeRenderingOpaques
->>`Filter`
->>>`LayerMask` Portal n
->>`Overrides`
->>>`Stencil` Checked
->>>>`Value` n
->>>>`Compare Function` Equal
->>>>`Fail` Replace
->World n
->>`Event` AfterRenderingOpaques
->>`Filter`
->>>`LayerMask` World n
->>`Overrides`
->>>`Stencil` Checked
->>>>`Value` n
->>>>`Compare Function` Equal
-`Layer` of `gameobject` portal should be set to Portal n and `gameobject` masked by the portal should be set to World n.
+>Filtering  
+>>`Opaque Layer Mask` Portal n and InWorld n should be unchecked.  
+>>`Transparent Layer Mask` Portal n and InWorld n should be unchecked.  
+>Portal n  
+>>`Event` BeforeRenderingOpaques  
+>>`Filter`  
+>>>`LayerMask` Portal n  
+>>`Overrides`  
+>>>`Stencil` Checked  
+>>>>`Value` n  
+>>>>`Compare Function` Equal  
+>>>>`Fail` Replace  
+>World n  
+>>`Event` AfterRenderingOpaques  
+>>`Filter`  
+>>>`LayerMask` World n  
+>>`Overrides`  
+>>>`Stencil` Checked  
+>>>>`Value` n  
+>>>>`Compare Function` Equal  
+`Layer` of `gameobject` portal should be set to Portal n and `gameobject` masked by the portal should be set to World n.  
 ### Scene Recording
 ![Impossible Box](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/ImpossibleBox.gif)  
 ## 2️⃣ Portable Door
