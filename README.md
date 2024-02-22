@@ -15,9 +15,9 @@ Stencil function can be achieved through `Renderer Feature` in `Universal Render
   
 >Portal n  
 >>`Event` BeforeRenderingOpaques  
->>`Filter`  
+>>Filter  
 >>>`LayerMask` Portal n  
->>`Overrides`  
+>>Overrides  
 >>>`Stencil` Checked  
 >>>>`Value` n  
 >>>>`Compare Function` Equal  
@@ -25,9 +25,9 @@ Stencil function can be achieved through `Renderer Feature` in `Universal Render
   
 >World n  
 >>`Event` AfterRenderingOpaques  
->>`Filter`  
+>>Filter  
 >>>`LayerMask` World n  
->>`Overrides`  
+>>Overrides  
 >>>`Stencil` Checked  
 >>>>`Value` n  
 >>>>`Compare Function` Equal
