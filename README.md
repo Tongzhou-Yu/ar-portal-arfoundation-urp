@@ -6,7 +6,7 @@ Apple ARKit XR Plugin 5.1.2
 
 ## :one: Impossible Box
 ### Introduction
-Stencil function can be achieved through `Renderer Feature` in `Universal Renderer Data`.
+Stencil function can be achieved through `Renderer Feature` in `Universal Renderer Data`.  
 ![Impossible Box](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/ImpossibleBox.gif)  
 ## 2️⃣ Portable Door
 ![Portable Door](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableDoor.gif)  
@@ -19,6 +19,6 @@ Dome Slider has a `slider` in the right side of the screen which can be used to 
 `DomeSlider.shadergarph` The `shader` of Dome's material
 >Skybox Texture `Texture2D` a HDRI texture  
 >Smoothness `Float` for better edge between skybox texture and reality world  
->Distance `Float` strength of VR
+>Distance `Float` strength of VR  
 ### Scene Recording
 ![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
