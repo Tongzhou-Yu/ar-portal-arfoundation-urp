@@ -6,8 +6,8 @@ Apple ARKit XR Plugin 5.1.2
 
 ## :one: Impossible Box
 ### Introduction
-Stencil function can be achieved through `Renderer Feature` in `Universal Renderer Data`.  
-![Impossible Box](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/ImpossibleBox.gif)  
+Stencil function can be achieved through `Renderer Feature` in `Universal Renderer Data`.
+    ![Impossible Box](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/ImpossibleBox.gif)  
 ## 2️⃣ Portable Door
 ![Portable Door](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableDoor.gif)  
 ## 3️⃣ Portable Object
