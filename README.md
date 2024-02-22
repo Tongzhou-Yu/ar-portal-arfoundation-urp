@@ -14,8 +14,8 @@ Apple ARKit XR Plugin 5.1.2
 ### Introduction
 Dome Slider has a `slider` in the right of the screen which can be used to control the material on `gameobject` Dome.  
 The `shader` of the material is DomeSlider.shadergarph with  
-1. `Texture2D`Skybox Texture: a HDRI texture  
-2. `Float`Smoothness: for better edge between skybox texture and reality world  
-3. `Float`Distance: strength of VR
+1. `Texture2D` Skybox Texture: a HDRI texture  
+2. `Float` Smoothness: for better edge between skybox texture and reality world  
+3. `Float` Distance: strength of VR
 ### Scene Recording
 ![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
