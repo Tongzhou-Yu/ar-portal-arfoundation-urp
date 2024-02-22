@@ -36,8 +36,18 @@ Stencil function can be achieved through `Renderer Feature` in `Universal Render
 ### Scene Recording
 ![Impossible Box](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/ImpossibleBox.gif)  
 ## 2️⃣ Portable Door
+### Introduction
+AR user can walk through the portal with AR device from AR experience to VR experience.  
+### Key Assets
+`Script` Portable Door as the component of `gameobject` Portal.  
+### Scene Recording
 ![Portable Door](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableDoor.gif)  
 ## 3️⃣ Portable Object
+### Introduction
+specific `gameobject` such as the blue ball in the scene can move through the portal from inner world to outer world.  
+### Key Assets
+`Script` Portable Object as the component of `gameobject` Portable Object.  
+### Scene Recording
 ![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)  
 ## 4️⃣ Dome Slider
 ### Introduction
