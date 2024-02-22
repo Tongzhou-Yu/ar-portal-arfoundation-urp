@@ -12,7 +12,7 @@ Apple ARKit XR Plugin 5.1.2
 ![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)  
 ## Sample 04 Dome Slider
 ### Introduction
-Dome Slider has a SLIDE in the right of the screen which can be used to control the material on GAMEOBJECT Dome.  
+Dome Slider has a 'slider' in the right of the screen which can be used to control the material on GAMEOBJECT Dome.  
 The SHADER of the material is DomeSlider.shadergarph with  
 1. Skybox Texture: a HDRI texture  
 2. Smoothness: for better edge between skybox texture and reality world  
