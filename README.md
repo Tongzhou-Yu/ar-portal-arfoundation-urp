@@ -10,3 +10,5 @@ Apple ARKit XR Plugin 5.1.2
 ![Portable Door](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableDoor.gif)  
 ## Sample 03 Portable Object
 ![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)  
+## Sample 04 Dome Slider
+![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
