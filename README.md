@@ -16,5 +16,6 @@ Dome Slider has a SLIDE in the right of the screen which can be used to control 
 The SHADER of the material is DomeSlider.shadergarph with  
 1. Skybox Texture: a HDRI texture  
 2. Smoothness: for better edge between skybox texture and reality world  
-3. Distance: strength of VR  
+3. Distance: strength of VR
+### Scene Recording
 ![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
