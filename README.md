@@ -6,11 +6,11 @@ Apple ARKit XR Plugin 5.1.2
 
 ## :one: Impossible Box
 ![Impossible Box](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/ImpossibleBox.gif)  
-## Sample 02 Portable Door
+## 2️⃣: Portable Door
 ![Portable Door](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableDoor.gif)  
-## Sample 03 Portable Object
+## 3️⃣: Portable Object
 ![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)  
-## Sample 04 Dome Slider
+## 4️⃣: Dome Slider
 ### Introduction
 Dome Slider has a `slider` in the right of the screen which can be used to control the material on `gameobject` Dome.  
 The `shader` of the material is DomeSlider.shadergarph with  
