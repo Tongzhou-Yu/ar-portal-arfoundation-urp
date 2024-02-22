@@ -6,7 +6,7 @@ Apple ARKit XR Plugin 5.1.2
 
 ## :one: Impossible Box
 ### Introduction
-Stencil function can be achieved through `Renderer Feature` in `Universal Renderer Data`.  
+Stencil function can be achieved through `Renderer Feature` in `Universal Renderer Data` to create portal effect. Through each portal the specific gameobjects can be seen and the maximum of the number of portals is 15 due to  `Universal Renderer Data`.
 ### Scene Recording
 ![Impossible Box](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/ImpossibleBox.gif)  
 ## 2️⃣ Portable Door
