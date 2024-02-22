@@ -4,10 +4,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+using UnityEngine.Rendering.Universal;
+
 public class PortableDoor : MonoBehaviour
 {
     public GameObject m_innerworld;
-    public int m_layer;
+    public int m_InWorldLayer;
+    public int m_OutWorldLayer;
     private Boolean m_isEntered = false;
     private void OnTriggerEnter(Collider other)
     {
@@ -16,19 +19,19 @@ public class PortableDoor : MonoBehaviour
             if (!m_isEntered)
             {
                 Debug.Log("Player entered the door");
-                m_innerworld.layer = 0;
+                m_innerworld.layer = m_OutWorldLayer;
                 foreach (Transform child in m_innerworld.transform)
                 {
-                    child.gameObject.layer = 0;
+                    child.gameObject.layer = m_OutWorldLayer;
                 }
 
             }
             else
             {
-                m_innerworld.layer = m_layer;
+                m_innerworld.layer = m_InWorldLayer;
                 foreach (Transform child in m_innerworld.transform)
                 {
-                    child.gameObject.layer = m_layer;
+                    child.gameObject.layer = m_InWorldLayer;
                 }
             }
         }

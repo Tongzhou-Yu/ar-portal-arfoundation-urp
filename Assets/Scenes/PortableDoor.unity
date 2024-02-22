@@ -339,7 +339,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_innerworld: {fileID: 1253426435}
-  m_layer: 7
+  m_InWorldLayer: 7
+  m_OutWorldLayer: 14
 --- !u!65 &493905545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1038,7 +1039,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1711462220}
-  - component: {fileID: 1711462221}
   m_Layer: 0
   m_Name: Portable Door
   m_TagString: Untagged
@@ -1066,20 +1066,6 @@ Transform:
   - {fileID: 685422594}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1711462221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711462219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6c1639fb63dab1409097b065b947ba7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_innerworld: {fileID: 0}
-  m_layer: 0
 --- !u!1 &1758107276
 GameObject:
   m_ObjectHideFlags: 0

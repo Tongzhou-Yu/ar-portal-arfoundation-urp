@@ -23,11 +23,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: InnerWorld4
+  m_Name: InWorld4
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    passTag: InnerWorld4
+    passTag: InWorld4
     Event: 300
     filterSettings:
       RenderQueueType: 0
@@ -65,11 +65,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: InnerWorld2
+  m_Name: InWorld2
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    passTag: InnerWorld2
+    passTag: InWorld2
     Event: 300
     filterSettings:
       RenderQueueType: 0
@@ -107,11 +107,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: InnerWorld
+  m_Name: InWorld1
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    passTag: InnerWorld
+    passTag: InWorld1
     Event: 300
     filterSettings:
       RenderQueueType: 0
@@ -164,7 +164,8 @@ MonoBehaviour:
   - {fileID: 6452898433152264793}
   - {fileID: 5592479711492388684}
   - {fileID: -4877585181930062558}
-  m_RendererFeatureMap: f93146f763c973ab93292ec5ffaa8213ca49159c32f384d34e3e9f8f204d20378dcff3432aa2fdbf7072d287359ff628592ab79fef4c8d594c3715d9aa7a9c4d227d599d1e564fbc
+  - {fileID: 3529521992508373863}
+  m_RendererFeatureMap: f93146f763c973ab93292ec5ffaa8213ca49159c32f384d34e3e9f8f204d20378dcff3432aa2fdbf7072d287359ff628592ab79fef4c8d594c3715d9aa7a9c4d227d599d1e564fbc67fb634e8d61fb30
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -287,6 +288,48 @@ MonoBehaviour:
       restoreCamera: 1
       offset: {x: 0, y: 0, z: 0, w: 0}
       cameraFieldOfView: 60
+--- !u!114 &3529521992508373863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+  m_Name: OutWorld1
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    passTag: OutWorld1
+    Event: 250
+    filterSettings:
+      RenderQueueType: 0
+      LayerMask:
+        serializedVersion: 2
+        m_Bits: 16384
+      PassNames: []
+    overrideMaterial: {fileID: 0}
+    overrideMaterialPassIndex: 0
+    overrideShader: {fileID: 0}
+    overrideShaderPassIndex: 0
+    overrideMode: 1
+    overrideDepthState: 0
+    depthCompareFunction: 4
+    enableWrite: 1
+    stencilSettings:
+      overrideStencilState: 1
+      stencilReference: 1
+      stencilCompareFunction: 6
+      passOperation: 0
+      failOperation: 0
+      zFailOperation: 0
+    cameraSettings:
+      overrideCamera: 0
+      restoreCamera: 1
+      offset: {x: 0, y: 0, z: 0, w: 0}
+      cameraFieldOfView: 60
 --- !u!114 &3972259673584647758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,11 +424,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: InnerWorld3
+  m_Name: InWorld3
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    passTag: InnerWorld3
+    passTag: InWorld3
     Event: 300
     filterSettings:
       RenderQueueType: 0
