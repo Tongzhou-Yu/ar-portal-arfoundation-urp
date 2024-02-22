@@ -21,7 +21,8 @@ Stencil function can be achieved through `Renderer Feature` in `Universal Render
 >>>`Stencil` Checked  
 >>>>`Value` n  
 >>>>`Compare Function` Equal  
->>>>`Fail` Replace  
+>>>>`Fail` Replace
+  
 >World n  
 >>`Event` AfterRenderingOpaques  
 >>`Filter`  
@@ -29,7 +30,8 @@ Stencil function can be achieved through `Renderer Feature` in `Universal Render
 >>`Overrides`  
 >>>`Stencil` Checked  
 >>>>`Value` n  
->>>>`Compare Function` Equal  
+>>>>`Compare Function` Equal
+  
 `Layer` of `gameobject` portal should be set to Portal n and `gameobject` masked by the portal should be set to World n.  
 ### Scene Recording
 ![Impossible Box](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/ImpossibleBox.gif)  
