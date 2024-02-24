@@ -55,12 +55,12 @@ Dome Slider has a `slider` in the right side of the screen which can be used to 
 ### Introduction
 Skybox texture of the dome can be transited by a button and the name of the skybox should be shown in a inputfield which can be prompt input area for AIGC such as Skybox AI Generator by Blockade Labs.  
 ### Key Assets
-`DomeTransition.csharp` on `gameobject` Dome
+`DomeTransition.csharp` on `gameobject` Dome  
 >Textures `List<Texture2D>` HDRI textures  
->Switch Button `Button` switch to next skybox
->Input Field `InputField`
->Initial Transition Speed `float` main transition speed
->Acceleration `float` the accelaration that when fade out will speed up transition and speed down when fade in
+>Switch Button `Button` switch to next skybox  
+>Input Field `InputField`  
+>Initial Transition Speed `float` main transition speed  
+>Acceleration `float` the accelaration that when fade out will speed up transition and speed down when fade in  
 >Maximum Transition Speed `float` for better user experience during transition  
 >Minimum Transition Speed `float` for better user experience during transition  
 ### Scene Recording
