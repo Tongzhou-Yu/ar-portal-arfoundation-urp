@@ -1,6 +1,6 @@
-# 鏡花水月^Kyōka Suigetsu^
+# 镜花水月 Kyōka Suigetsu
 "fower in the miror, moon on the water"
-something that is visible but cannot be touched; the subtle and profound beauty of poems that cannot be described in words. 
+This Unity project is for achieving something that is visible but cannot be touched and cannot be described in words. 
 ## Installation  
 Unity 2022.3.15f1c1  
 Universal RP 14.0.9  
