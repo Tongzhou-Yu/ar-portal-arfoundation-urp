@@ -17,11 +17,11 @@ Stencil function can be achieved through `Renderer Feature` in `Universal Render
 >`Portal n\Overrides\Value` n  
 >`Portal n\Overrides\Compare Function` Equal  
 >`Portal n\Overrides\Fail` Replace
->>`World n\Event` AfterRenderingOpaques  
->>`World n\Filter\LayerMask` World n  
->>`World n\Overrides\Stencil` Checked  
->>`World n\Overrides\Value` n  
->>`World n\Overrides\Compare Function` Equal
+>`World n\Event` AfterRenderingOpaques  
+>`World n\Filter\LayerMask` World n  
+>`World n\Overrides\Stencil` Checked  
+>`World n\Overrides\Value` n  
+>`World n\Overrides\Compare Function` Equal
   
 `Layer` of `gameobject` portal should be set to Portal n and `gameobject` masked by the portal should be set to World n.  
 ### Scene Recording
