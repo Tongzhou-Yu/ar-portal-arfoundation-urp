@@ -15,22 +15,18 @@ Stencil function can be achieved through `Renderer Feature` in `Universal Render
   
 >Portal n  
 >>`Event` BeforeRenderingOpaques  
->>Filter  
->>>`LayerMask` Portal n  
->>Overrides  
->>>`Stencil` Checked  
->>>>`Value` n  
->>>>`Compare Function` Equal  
->>>>`Fail` Replace
+>>`Filter\LayerMask` Portal n  
+>>`Overrides\Stencil` Checked  
+>>`Overrides\Value` n  
+>>`Overrides\Compare Function` Equal  
+>>`Overrides\Fail` Replace
   
 >World n  
 >>`Event` AfterRenderingOpaques  
->>Filter  
->>>`LayerMask` World n  
->>Overrides  
->>>`Stencil` Checked  
->>>>`Value` n  
->>>>`Compare Function` Equal
+>>`Filter\LayerMask` World n  
+>>`Overrides\Stencil` Checked  
+>>`Overrides\Value` n  
+>>`Overrides\Compare Function` Equal
   
 `Layer` of `gameobject` portal should be set to Portal n and `gameobject` masked by the portal should be set to World n.  
 ### Scene Recording
@@ -56,10 +52,15 @@ Dome Slider has a `slider` in the right side of the screen which can be used to 
 `DomeSlider.shadergarph` The `shader` of Dome's material
 >Skybox Texture `Texture2D` a HDRI texture  
 >Smoothness `Float` for better edge between skybox texture and reality world  
->Distance `Float` strength of VR  
+>Distance `Float` strength of VR
+`DomeSlider.csharp` on `gameobject` Dome
 ### Scene Recording
 ![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
 ## 5️⃣ Dome Transition
 ### Introduction
 Skybox texture of the dome can be transited by a button and the name of the skybox should be shown in a inputfield which can be prompt input area for AIGC such as Skybox AI Generator by Blockade Labs.  
+### Key Assets
+`DomeTransition.csharp` on `gameobject` Dome
+>
+### Scene Recording
 ![Dome Transition](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition.gif)  
