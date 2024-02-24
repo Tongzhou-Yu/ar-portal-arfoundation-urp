@@ -59,3 +59,7 @@ Dome Slider has a `slider` in the right side of the screen which can be used to 
 >Distance `Float` strength of VR  
 ### Scene Recording
 ![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
+## 4️⃣ Dome Transition
+### Introduction
+Skybox texture of the dome can be transited by a button and the name of the skybox should be shown in a inputfield which can be prompt input area for AIGC such as Skybox AI Generator by Blockade Labs.  
+![Dome Transition](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition.gif)  
