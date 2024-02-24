@@ -9,24 +9,19 @@ Apple ARKit XR Plugin 5.1.2
 Stencil function can be achieved through `Renderer Feature` in `Universal Renderer Data` to create portal effect. Through each portal the specific gameobjects can be seen and the maximum quantity of portals is 15 due to  `Universal Renderer Data`.
 ### Key Assets
 `Assets/RP/ArPortal_Renderer.asset`  
->Filtering  
->>`Opaque Layer Mask` Portal n and InWorld n should be unchecked.  
->>`Transparent Layer Mask` Portal n and InWorld n should be unchecked.
-  
->Portal n  
->>`Event` BeforeRenderingOpaques  
->>`Filter\LayerMask` Portal n  
->>`Overrides\Stencil` Checked  
->>`Overrides\Value` n  
->>`Overrides\Compare Function` Equal  
->>`Overrides\Fail` Replace
-  
->World n  
->>`Event` AfterRenderingOpaques  
->>`Filter\LayerMask` World n  
->>`Overrides\Stencil` Checked  
->>`Overrides\Value` n  
->>`Overrides\Compare Function` Equal
+>`Filtering\Opaque Layer Mask` Portal n and InWorld n should be unchecked.  
+>`Filtering\Transparent Layer Mask` Portal n and InWorld n should be unchecked.
+>`Portal n\Event` BeforeRenderingOpaques  
+>`Portal n\Filter\LayerMask` Portal n  
+>`Portal n\Overrides\Stencil` Checked  
+>`Portal n\Overrides\Value` n  
+>`Portal n\Overrides\Compare Function` Equal  
+>`Portal n\Overrides\Fail` Replace
+>>`World n\Event` AfterRenderingOpaques  
+>>`World n\Filter\LayerMask` World n  
+>>`World n\Overrides\Stencil` Checked  
+>>`World n\Overrides\Value` n  
+>>`World n\Overrides\Compare Function` Equal
   
 `Layer` of `gameobject` portal should be set to Portal n and `gameobject` masked by the portal should be set to World n.  
 ### Scene Recording
