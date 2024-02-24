@@ -1,6 +1,5 @@
-## 镜花水月 Kyōka Suigetsu
-**fower in the miror, moon on the water**  
-This Unity project is for achieving something that is visible but cannot be touched and cannot be described in words. 
+**镜花水月 Kyōka Suigetsu: Fower in the miror, moon on the water**  
+This Unity project is for achieving 镜花水月 that is visible but cannot be touched and cannot be described in words. 
 ## Installation  
 Unity 2022.3.15f1c1  
 Universal RP 14.0.9  
