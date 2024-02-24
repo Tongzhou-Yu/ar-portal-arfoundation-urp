@@ -49,6 +49,7 @@ Dome Slider has a `slider` in the right side of the screen which can be used to 
 >Smoothness `Float` for better edge between skybox texture and reality world  
 >Distance `Float` strength of VR
 `DomeSlider.csharp` on `gameobject` Dome
+>Slider `Slider` control the level of transition of skybox  
 ### Scene Recording
 ![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
 ## 5️⃣ Dome Transition
