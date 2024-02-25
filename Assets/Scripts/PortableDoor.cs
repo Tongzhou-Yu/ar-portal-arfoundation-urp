@@ -19,21 +19,21 @@ public class PortableDoor : MonoBehaviour
             if (!m_isEntered)
             {
                 Debug.Log("Player entered the door");
-                m_innerworld.layer = m_OutWorldLayer;
-                foreach (Transform child in m_innerworld.transform)
-                {
-                    child.gameObject.layer = m_OutWorldLayer;
-                }
-
+                SetLayerRecursively(m_innerworld.transform, m_OutWorldLayer);
             }
             else
             {
-                m_innerworld.layer = m_InWorldLayer;
-                foreach (Transform child in m_innerworld.transform)
-                {
-                    child.gameObject.layer = m_InWorldLayer;
-                }
+                SetLayerRecursively(m_innerworld.transform, m_InWorldLayer);
             }
+        }
+    }
+    void SetLayerRecursively(Transform parent, int layer)
+    {
+        parent.gameObject.layer = layer;
+
+        foreach (Transform child in parent)
+        {
+            SetLayerRecursively(child, layer);
         }
     }
     private void OnTriggerExit(Collider other)

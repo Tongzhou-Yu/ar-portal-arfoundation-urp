@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class SliderController : MonoBehaviour
 {
     public Slider m_slider; // 指向Slider的引用
-    public Material m_material; // 指向Material的引用
+    private Material m_material; // 指向Material的引用
 
     void Start()
     {
