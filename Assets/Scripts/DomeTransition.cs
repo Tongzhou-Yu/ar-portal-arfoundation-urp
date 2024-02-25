@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class TextureSwitcher : MonoBehaviour
+public class DomeTransition : MonoBehaviour
 {
     public List<Texture2D> textures; // 存储Texture2D的列表
     public Button switchButton; // 切换按钮
