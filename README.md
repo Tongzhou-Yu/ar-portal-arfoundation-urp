@@ -50,7 +50,8 @@ Dome Slider has a `slider` in the right side of the screen which can be used to 
 `DomeSlider.shadergarph` The `shader` of Dome's material
 >Skybox Texture `Texture2D` a HDRI texture  
 >Smoothness `Float` for better edge between skybox texture and reality world  
->Distance `Float` strength of VR  
+>Distance `Float` strength of VR
+
 `DomeSlider.csharp` on `gameobject` Dome  
 >Slider `Slider` control the level of transition of skybox  
 ### Scene Recording
