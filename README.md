@@ -35,7 +35,7 @@ AR user can walk through the portal with AR device from AR experience to VR expe
 ### Key Assets
 `PortalDoor.csharp` as the component of `gameobject` Portal which is the child of `gameobject` Portal Door.  
 >Innerworld `gameobject` should be the parent of all the `gameobject` inside the portal, everything will be automatically controlled.  
->In World Layer `int` should be the number of `layer` InWorldN.
+>In World Layer `int` should be the number of `layer` InWorldN.  
 >Out World Layer `int` should be the number of `layer` OutWorldN.  
 ### Scene Recording
 ![Portable Door](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableDoor.gif)  
@@ -45,8 +45,8 @@ specific `gameobject` such as the blue ball in the scene can move through the po
 ### Key Assets
 `PortableObject.csharp` as the component of `gameobject` Portable Object which is the child of `gameobject` InnerWorld.  
 >Innerworld `gameobject` should be the parent of all the `gameobject` inside the portal, everything will be automatically controlled.  
->In World Layer `int` should be the number of `layer` InWorldN.
->Out World Layer `int` should be the number of `layer` OutWorldN.  
+>In World Layer `int` should be the number of `layer` InWorldN.  
+>Out World Layer `int` should be the number of `layer` OutWorldN.   
 ### Scene Recording
 ![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)  
 ## 4️⃣ Dome Slider
