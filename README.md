@@ -81,9 +81,10 @@ Skybox texture of the dome can be transited by a button and the name of the skyb
 ### Introduction  
 This sample upgrade Dome Transition into a AIGC project that you can type prompt to have AI generated skybox texture on the dome. 
 ### Installation  
-I have made a basic Unity project [RuntimeSD](https://github.com/Tongzhou-Yu/RuntimeStableDiffusion) for using stable diffusion in Unity projects through any app you build to connect with your stable diffusion API.  
+I have made a basic Unity project [RuntimeSD](https://github.com/Tongzhou-Yu/RuntimeStableDiffusion) for using stable diffusion in realtime through the app you build to connect with your stable diffusion API.  
 [360 Diffusion LoRA](https://civitai.com/models/26815/360-diffusion-lora-for-sd-15) is required for Stable Diffusion in this project.  
 ### Key Assets
+`DomeTransition_RuntimeSD.csharp` on `gameobject` Dome  
 ### Scene Recording
 ![Dome Transition Stable Diffusion](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition_StableDiffusion.gif)  
 
