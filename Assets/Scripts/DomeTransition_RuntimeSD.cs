@@ -10,7 +10,8 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
     public Texture2D m_LogoTexture;
     public RenderTexture m_renderTexture;
     public Button switchButton; // 切换按钮
-    public InputField inputField; // 输入框
+    public InputField urlInputField; // URL输入框
+    public InputField promptInputField; // Prompt输入框
     public float initialTransitionSpeed = 0.01f; // 初始速度
     public float acceleration = 0.0001f; // 加速度
     private float transitionSpeed; // 当前速度
@@ -20,13 +21,14 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
     private bool isSwitching = false; // 是否正在切换Texture
 
     [Header("Stable Diffusion Settings")]
-    public string m_url = "http://127.0.0.1:7860";
     public string m_lora = "<lora:360Diffusion_v1:1>";
+    private string m_url = "http://127.0.0.1:7860";
     public string m_steps = "20";
     public string m_width = "1024";
     public string m_height = "512";
     void Start()
     {
+        urlInputField.text = m_url;
         // 获取当前物体的Material
         material = GetComponent<Renderer>().material;
         Graphics.Blit(m_LogoTexture, m_renderTexture);
@@ -50,8 +52,14 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
         isSwitching = true;
         switchButton.interactable = false; // 禁用按钮
 
+        if (urlInputField.text != "")
+        {
+            // 更新URL
+            m_url = urlInputField.text;
+        }
+
         // 发送HTTP请求并获取新的Texture
-        string prompt = inputField.text;
+        string prompt = promptInputField.text;
         yield return StartCoroutine(SendPostRequest(prompt));
 
         // 从5逐步递减到-7
@@ -74,7 +82,6 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
         // 从-7逐步递加到5
         for (float distance = -7; distance <= 5; distance += transitionSpeed)
         {
-            Debug.Log("distance" + distance);
             material.SetFloat("_Distance", distance);
             if (transitionSpeed > minimumTransitionSpeed)
             {
