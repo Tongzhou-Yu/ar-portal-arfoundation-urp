@@ -6,6 +6,7 @@ Unity 2022.3.15f1c1
 Universal RP 14.0.9  
 AR Foundation 5.1.2  
 Apple ARKit XR Plugin 5.1.2  
+(optional, stable diffusion function required) Newtonsoft Json 3.2.1  
 
 ## :one: Impossible Box
 ### Introduction
@@ -76,3 +77,8 @@ Skybox texture of the dome can be transited by a button and the name of the skyb
 >Minimum Transition Speed `float` for better user experience during transition  
 ### Scene Recording
 ![Dome Transition](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition.gif)  
+## 6️⃣ Dome Transition Stable Diffusion
+### Introduction  
+[360 Diffusion LoRA](https://civitai.com/models/26815/360-diffusion-lora-for-sd-15) is required for Stable Diffusion in this project.  
+### Key Assets
+
