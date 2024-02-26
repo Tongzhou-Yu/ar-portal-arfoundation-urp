@@ -1522,7 +1522,7 @@ MonoBehaviour:
   switchButton: {fileID: 187352616}
   urlInputField: {fileID: 651978449}
   promptInputField: {fileID: 119402225}
-  initialTransitionSpeed: 0.01
+  initialTransitionSpeed: 0.02
   acceleration: 0.0001
   maximumTransitionSpeed: 0.1
   minimumTransitionSpeed: 0.01

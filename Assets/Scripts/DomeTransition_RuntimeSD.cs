@@ -19,6 +19,7 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
     public float minimumTransitionSpeed = 0.01f; // 最小速度
     private Material material; // 当前物体的Material
     private bool isSwitching = false; // 是否正在切换Texture
+    Coroutine transitionCoroutine; // 切换Texture的协程
 
     [Header("Stable Diffusion Settings")]
     public string m_lora = "<lora:360Diffusion_v1:1>";
@@ -41,8 +42,11 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
         {
             if (!isSwitching)
             {
+                // 启动TransitionCoroutine协程，并保存它的引用
+                transitionCoroutine = StartCoroutine(TransitionCoroutine());
+                // 启动SwitchTextureCoroutine协程
                 StartCoroutine(SwitchTextureCoroutine());
-                StartCoroutine(TransitionCoroutine());
+
             }
         });
 
@@ -122,6 +126,9 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
             // Parse the response
             JObject response = JObject.Parse(www.downloadHandler.text);
             string base64Image = response["images"][0].ToString();
+
+            // 等待TransitionCoroutine协程完成
+            yield return transitionCoroutine;
 
             // Convert base64 to Texture2D
             Texture2D texture = new Texture2D(2, 2);
