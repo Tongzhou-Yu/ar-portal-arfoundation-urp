@@ -77,4 +77,8 @@ Skybox texture of the dome can be transited by a button and the name of the skyb
 >Minimum Transition Speed `float` for better user experience during transition  
 ### Scene Recording
 ![Dome Transition](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition.gif)  
-## :6: Dome Transition Stable Diffusion
+## 6️⃣ Dome Transition Stable Diffusion
+### Introduction  
+360 Diffusion LoRA for SD 1.5 is required for Stable Diffusion in this project.  
+### Key Assets
+
