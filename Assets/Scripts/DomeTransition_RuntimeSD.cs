@@ -40,6 +40,7 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
             if (!isSwitching)
             {
                 StartCoroutine(SwitchTextureCoroutine());
+                StartCoroutine(TransitionCoroutine());
             }
         });
 
@@ -48,20 +49,6 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
     {
         isSwitching = true;
         switchButton.interactable = false; // 禁用按钮
-
-        // 从-7逐步递加到5
-        for (float distance = -7; distance <= 5; distance += transitionSpeed)
-        {
-            Debug.Log("distance" + distance);
-            material.SetFloat("_Distance", distance);
-            if (transitionSpeed > minimumTransitionSpeed)
-            {
-                transitionSpeed -= acceleration; // 减速
-            }
-            yield return null; // 等待下一帧
-        }
-
-        transitionSpeed = initialTransitionSpeed; // 重置速度
 
         // 发送HTTP请求并获取新的Texture
         string prompt = inputField.text;
@@ -80,6 +67,22 @@ public class DomeTransition_RuntimeSD : MonoBehaviour
 
         isSwitching = false;
         switchButton.interactable = true; // 启用按钮
+        transitionSpeed = initialTransitionSpeed; // 重置速度
+    }
+    IEnumerator TransitionCoroutine()
+    {
+        // 从-7逐步递加到5
+        for (float distance = -7; distance <= 5; distance += transitionSpeed)
+        {
+            Debug.Log("distance" + distance);
+            material.SetFloat("_Distance", distance);
+            if (transitionSpeed > minimumTransitionSpeed)
+            {
+                transitionSpeed -= acceleration; // 减速
+            }
+            yield return null; // 等待下一帧
+        }
+
         transitionSpeed = initialTransitionSpeed; // 重置速度
     }
     IEnumerator SendPostRequest(string prompt)
