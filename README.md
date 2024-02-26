@@ -79,8 +79,13 @@ Skybox texture of the dome can be transited by a button and the name of the skyb
 ![Dome Transition](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition.gif)  
 ## 6️⃣ Dome Transition Stable Diffusion
 ### Introduction  
-[360 Diffusion LoRA](https://civitai.com/models/26815/360-diffusion-lora-for-sd-15) is required for Stable Diffusion in this project.  
+This sample upgrade Dome Transition into a AIGC project that you can type prompt to have AI generated skybox texture on the dome. 
+### Installation  
+1. Stable Diffusion WebUI is required. I have made a basic Unity project [RuntimeSD](https://github.com/Tongzhou-Yu/RuntimeStableDiffusion) for using stable diffusion in realtime through the app you build to connect with your stable diffusion API. You can follow the instruction to install SD.
+2. Adding `Launching Web UI with arguments:` `--api` `--share` to the command line options in `webui-user.bat` will generate a random share link that is displayed in the command window, that you can fill in `DomeTransition_RuntimeSD.csharp`'s `Url`.  
+3. [360 Diffusion LoRA](https://civitai.com/models/26815/360-diffusion-lora-for-sd-15) is required for Stable Diffusion in this project. This LoRA model should be put in ..\webui\models\Lora.    
 ### Key Assets
+`DomeTransition_RuntimeSD.csharp` on `gameobject` Dome  
 ### Scene Recording
 ![Dome Transition Stable Diffusion](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition_StableDiffusion.gif)  
 
