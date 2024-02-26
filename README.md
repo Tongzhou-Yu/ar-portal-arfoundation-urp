@@ -81,4 +81,6 @@ Skybox texture of the dome can be transited by a button and the name of the skyb
 ### Introduction  
 [360 Diffusion LoRA](https://civitai.com/models/26815/360-diffusion-lora-for-sd-15) is required for Stable Diffusion in this project.  
 ### Key Assets
+### Scene Recording
+![Dome Transition Stable Diffusion](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition_StableDiffusion.gif)  
 
