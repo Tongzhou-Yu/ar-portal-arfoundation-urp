@@ -55,8 +55,9 @@ specific `gameobject` such as the blue ball in the scene can move through the po
 Show how to use both Stencil and Depth buffer to make object halfway through the portal door.  
 ### Key Assets  
 ArUrp.assets `Universal Render Pipline Assets`'s Depth Texture should be turn on   
-`DepthMask.shader` The `shader` to mask object  
-`SetRenderQueue.cs` The `script` to force the render queue of depth mask  
+`DepthMask.shader` The `shader` of Depth Mask `gameobject` to mask object  
+`SetRenderQueue.cs` The `script` Depth Mask `gameobject` to force the render queue of depth mask  
+>Queue Element0 should be 1980  
 ### Art Assets
 `Animated Model` used in this project [Animated 3D Tyrannosaurus Rex Dinosaur Loop](https://skfb.ly/o9oJ8) by LasquetiSpice is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 ### Scene Recording
