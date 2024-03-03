@@ -2,7 +2,7 @@
 **镜花水月 Kyōka Suigetsu: Fower in the miror, moon on the water**  
 This Unity project is for achieving the aesthetics above that is visible but cannot be touched and cannot be described in words. 
 ## Installation  
-Unity 2022.3.15f1c1  
+Unity 2022.3.17
 Universal RP 14.0.9  
 AR Foundation 5.1.2  
 Apple ARKit XR Plugin 5.1.2  
@@ -49,8 +49,15 @@ specific `gameobject` such as the blue ball in the scene can move through the po
 >In World Layer `int` should be the number of `layer` InWorldN.  
 >Out World Layer `int` should be the number of `layer` OutWorldN.   
 ### Scene Recording
-![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)  
-## 4️⃣ Dome Slider
+![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)   
+## 4️⃣ Halfway Through Door
+### Introduction  
+Show how to use both Stencil and Depth buffer to make object halfway through the portal door.  
+Animated Model used in this project [Animated 3D Tyrannosaurus Rex Dinosaur Loop](https://skfb.ly/o9oJ8) by LasquetiSpice is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+### Key Assets  
+`DepthMask.shader` The `shader` to mask object  
+`SetRenderQueue.cs` The `script` to force the render queue of depth mask  
+## 5️⃣ Dome Slider
 ### Introduction
 Dome Slider has a `slider` in the right side of the screen which can be used to fade in and out `gameobject` Dome.  
 ### Key Assets
@@ -63,7 +70,7 @@ Dome Slider has a `slider` in the right side of the screen which can be used to 
 >Slider `Slider` control the level of transition of skybox  
 ### Scene Recording
 ![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
-## 5️⃣ Dome Transition
+## 6️⃣ Dome Transition
 ### Introduction
 Skybox texture of the dome can be transited by a button and the name of the skybox should be shown in a inputfield which can be prompt input area for AIGC such as Skybox AI Generator by Blockade Labs.  
 ### Key Assets
@@ -77,7 +84,7 @@ Skybox texture of the dome can be transited by a button and the name of the skyb
 >Minimum Transition Speed `float` for better user experience during transition  
 ### Scene Recording
 ![Dome Transition](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition.gif)  
-## 6️⃣ Dome Transition Stable Diffusion
+## 7️⃣ Dome Transition Stable Diffusion
 ### Introduction  
 This sample upgrade Dome Transition into a AIGC project that you can type prompt to have AI generated skybox texture on the dome. 
 ### Installation  
