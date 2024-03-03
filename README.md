@@ -2,7 +2,7 @@
 **镜花水月 Kyōka Suigetsu: Fower in the miror, moon on the water**  
 This Unity project is for achieving the aesthetics above that is visible but cannot be touched and cannot be described in words. 
 ## Installation  
-Unity 2022.3.15f1c1  
+Unity 2022.3.17
 Universal RP 14.0.9  
 AR Foundation 5.1.2  
 Apple ARKit XR Plugin 5.1.2  
@@ -53,7 +53,7 @@ specific `gameobject` such as the blue ball in the scene can move through the po
 ## 4️⃣ Halfway Through Door
 ### Introduction  
 Show how to use both Stencil and Depth buffer to make object halfway through the portal door.  
-Animated Model used in this project ![Whale](https://skfb.ly/6SF9s) by rkuhlf is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).  
+Animated Model used in this project [Whale](https://skfb.ly/6SF9s) by rkuhlf is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).  
 ### Key Assets  
 `DepthMask.shader` The `shader` to mask object  
 `SetRenderQueue.cs` The `script` to force the render queue of depth mask  
