@@ -49,8 +49,10 @@ specific `gameobject` such as the blue ball in the scene can move through the po
 >In World Layer `int` should be the number of `layer` InWorldN.  
 >Out World Layer `int` should be the number of `layer` OutWorldN.   
 ### Scene Recording
-![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)  
-## 4️⃣ Dome Slider
+![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)   
+## 4️⃣ Half-cross Door
+Animated Model used in this project "Whale" (https://skfb.ly/6SF9s) by rkuhlf is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).  
+## 5️⃣ Dome Slider
 ### Introduction
 Dome Slider has a `slider` in the right side of the screen which can be used to fade in and out `gameobject` Dome.  
 ### Key Assets
@@ -63,7 +65,7 @@ Dome Slider has a `slider` in the right side of the screen which can be used to 
 >Slider `Slider` control the level of transition of skybox  
 ### Scene Recording
 ![Dome Slider](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeSlider.gif)  
-## 5️⃣ Dome Transition
+## 6️⃣ Dome Transition
 ### Introduction
 Skybox texture of the dome can be transited by a button and the name of the skybox should be shown in a inputfield which can be prompt input area for AIGC such as Skybox AI Generator by Blockade Labs.  
 ### Key Assets
@@ -77,7 +79,7 @@ Skybox texture of the dome can be transited by a button and the name of the skyb
 >Minimum Transition Speed `float` for better user experience during transition  
 ### Scene Recording
 ![Dome Transition](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/DomeTransition.gif)  
-## 6️⃣ Dome Transition Stable Diffusion
+## 7️⃣ Dome Transition Stable Diffusion
 ### Introduction  
 This sample upgrade Dome Transition into a AIGC project that you can type prompt to have AI generated skybox texture on the dome. 
 ### Installation  
