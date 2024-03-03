@@ -53,7 +53,7 @@ specific `gameobject` such as the blue ball in the scene can move through the po
 ## 4️⃣ Halfway Through Door
 ### Introduction  
 Show how to use both Stencil and Depth buffer to make object halfway through the portal door.  
-Animated Model used in this project [Whale](https://skfb.ly/6SF9s) by rkuhlf is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).  
+Animated Model used in this project [Animated 3D Tyrannosaurus Rex Dinosaur Loop](https://skfb.ly/o9oJ8) by LasquetiSpice is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 ### Key Assets  
 `DepthMask.shader` The `shader` to mask object  
 `SetRenderQueue.cs` The `script` to force the render queue of depth mask  
