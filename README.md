@@ -57,6 +57,8 @@ Animated Model used in this project [Animated 3D Tyrannosaurus Rex Dinosaur Loop
 ### Key Assets  
 `DepthMask.shader` The `shader` to mask object  
 `SetRenderQueue.cs` The `script` to force the render queue of depth mask  
+### Scene Recording
+![Halfway Through Door](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/HalfwayThroughDoor.gif)   
 ## 5️⃣ Dome Slider
 ### Introduction
 Dome Slider has a `slider` in the right side of the screen which can be used to fade in and out `gameobject` Dome.  
