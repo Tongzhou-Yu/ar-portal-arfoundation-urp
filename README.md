@@ -50,8 +50,13 @@ specific `gameobject` such as the blue ball in the scene can move through the po
 >Out World Layer `int` should be the number of `layer` OutWorldN.   
 ### Scene Recording
 ![Portable Object](https://github.com/Tongzhou-Yu/ar-portal-arfoundation-urp/blob/main/ScreenRecordingGIF/PortableObject.gif)   
-## 4️⃣ Half-cross Door
+## 4️⃣ Halfway Through Door
+### Introduction  
+Show how to use both Stencil and Depth buffer to make object halfway through the portal door.  
 Animated Model used in this project "Whale" (https://skfb.ly/6SF9s) by rkuhlf is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).  
+### Key Assets  
+`DepthMask.shader` The `shader` to mask object  
+`SetRenderQueue.cs` The `script` to force the render queue of depth mask  
 ## 5️⃣ Dome Slider
 ### Introduction
 Dome Slider has a `slider` in the right side of the screen which can be used to fade in and out `gameobject` Dome.  
