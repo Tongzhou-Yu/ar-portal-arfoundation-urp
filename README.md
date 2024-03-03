@@ -54,6 +54,7 @@ specific `gameobject` such as the blue ball in the scene can move through the po
 ### Introduction  
 Show how to use both Stencil and Depth buffer to make object halfway through the portal door.  
 ### Key Assets  
+ArUrp.assets `Universal Render Pipline Assets`'s Depth Texture should be turn on   
 `DepthMask.shader` The `shader` to mask object  
 `SetRenderQueue.cs` The `script` to force the render queue of depth mask  
 ### Art Assets
